@@ -1,0 +1,243 @@
+.navigation-wrapper {
+  display: contents;
+}
+ 
+.navigation-container1 {
+  display: contents;
+}
+ 
+.navigation-navigationtoggle-icon1 {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  transition: opacity 0.2s var(--animation-curve-primary),
+      transform 0.2s var(--animation-curve-primary);
+}
+ 
+.navigation-navigationtoggle-icon2 {
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  transition: opacity 0.2s var(--animation-curve-primary),
+      transform 0.2s var(--animation-curve-primary);
+}
+ 
+.navigation-container2 {
+  display: none;
+}
+ 
+.navigation-container3 {
+  display: contents;
+}
+ 
+.navigation-container4 {
+  display: none;
+}
+ 
+.navigation-container5 {
+  display: contents;
+}
+
+.footer-wrapper {
+  display: contents;
+}
+ 
+.footer-container1 {
+  display: contents;
+}
+ 
+.footer-container2 {
+  display: none;
+}
+ 
+.footer-container3 {
+  display: contents;
+}
+ 
+.footer-container4 {
+  display: none;
+}
+ 
+.footer-container5 {
+  display: contents;
+}
+ 
+.footer-container6 {
+  display: none;
+}
+ 
+.footer-container7 {
+  display: contents;
+}
+
+.home-container1 {
+  width: 100%;
+  display: block;
+  min-height: 100vh;
+}
+ 
+.home-hero {
+  width: auto;
+  height: var(--dl-layout-size-xsmall);
+  min-width: auto;
+  background-size: cover;
+  background-image: url("public/banner-1500h.png");
+}
+ 
+.home-herosubtitle {
+  color: #61b4ce;
+}
+ 
+.home-herodescription {
+  color: #2276c9;
+}
+ 
+.home-herosensor1 {
+  top: 436px;
+  left: 259px;
+  height: 46px;
+  border-color: var(--color-on-surface);
+  border-width: 1px;
+  background-color: rgba(112, 216, 224, 0.93);
+}
+ 
+.home-herosensor2 {
+  top: -558px;
+  right: -80px;
+}
+ 
+.home-container2 {
+  display: none;
+}
+ 
+.home-container3 {
+  display: contents;
+}
+ 
+.home-image1 {
+  width: 399px;
+  height: 366px;
+  object-fit: cover;
+}
+ 
+.home-image2 {
+  width: 200px;
+  object-fit: cover;
+}
+ 
+.home-image3 {
+  width: 200px;
+  object-fit: cover;
+}
+ 
+.home-image4 {
+  width: 200px;
+  object-fit: cover;
+}
+ 
+.home-testimonial-portrait2 {
+  width: auto;
+}
+ 
+.home-image5 {
+  width: var(--dl-layout-size-xlarge);
+  z-index: 2;
+  position: relative;
+  box-shadow: 5px 5px 10px 0px #d4d4d4,5px 5px 10px 0px #d4d4d4,5px 5px 10px 0px #d4d4d4;
+  object-fit: cover;
+}
+ 
+.home-testimonial-quotetext1 {
+  color: var(--color-on-surface);
+  margin: 0 0 var(--spacing-sm) 0;
+  font-size: var(--font-size-base);
+  font-style: italic;
+  font-family: var(--font-family-body);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-base);
+}
+ 
+.home-testimonial-quoteattribution1 {
+  color: var(--color-on-surface-secondary);
+  font-size: var(--font-size-sm);
+  font-style: normal;
+  font-family: var(--font-family-body);
+  font-weight: var(--font-weight-medium);
+}
+ 
+.home-testimonial-quote2 {
+  align-self: flex-start;
+}
+ 
+.home-testimonial-quotetext2 {
+  color: var(--color-on-surface);
+  margin: 0 0 var(--spacing-sm) 0;
+  font-size: var(--font-size-base);
+  font-style: italic;
+  font-family: var(--font-family-body);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-base);
+}
+ 
+.home-testimonial-quoteattribution2 {
+  color: var(--color-on-surface-secondary);
+  font-size: var(--font-size-sm);
+  font-style: normal;
+  font-family: var(--font-family-body);
+  font-weight: var(--font-weight-medium);
+}
+ 
+.home-contact {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+}
+ 
+.home-container4 {
+  display: none;
+}
+ 
+.home-container5 {
+  display: contents;
+}
+ 
+.home-container6 {
+  display: none;
+}
+ 
+.home-container7 {
+  display: contents;
+}
+ 
+.home-container8 {
+  right: 50px;
+  border: 1px solid #ffffff5c;
+  bottom: 30px;
+  display: flex;
+  z-index: 22;
+  position: fixed;
+  box-shadow: 5px 5px 10px 0px rgba(31, 31, 31, 0.4);
+  min-height: auto;
+  align-items: center;
+  padding-top: 8px;
+  padding-left: 12px;
+  border-radius: 8px;
+  padding-right: 12px;
+  padding-bottom: 8px;
+  backdrop-filter: blur(6px);
+  background-color: rgba(41, 41, 41, 0.41);
+}
+ 
+.home-icon40 {
+  width: 24px;
+  margin-right: 4px;
+}
+ 
+.home-text5 {
+  color: white;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
